@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1E26E9D0-D447-475C-A076-BEA76CE1DD06}</ProjectGuid>
+    <ProjectGuid>{A8266194-C242-4FA0-998C-ADBA17964E80}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CaptiansLog</RootNamespace>
-    <AssemblyName>CaptiansLog</AssemblyName>
+    <RootNamespace>_07_CaptainsLog</RootNamespace>
+    <AssemblyName>07-CaptainsLog</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,12 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Json">
-      <HintPath>..\packages\JSON.1.0.1\lib\net40\Json.dll</HintPath>
-    </Reference>
-    <Reference Include="LitJson">
-      <HintPath>..\packages\LitJson.0.7.0\lib\LitJson.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
@@ -105,9 +99,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CaptiansLog.Core\CaptiansLog.Core.csproj">
-      <Project>{b396b50e-cfe3-4a93-8e38-cf32a8d7fcdf}</Project>
-      <Name>CaptiansLog.Core</Name>
+    <ProjectReference Include="..\CaptainsLog.Core\CaptainsLog.Core.csproj">
+      <Project>{65cdb31e-7239-43c6-811a-340a48484521}</Project>
+      <Name>CaptainsLog.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

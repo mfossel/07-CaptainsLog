@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CaptiansLog.Properties
+namespace _07_CaptainsLog.Properties
 {
 
 
